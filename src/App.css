@@ -1,0 +1,29 @@
+body{
+    background-color: #ffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.side-bar {
+  width: 250px;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: rgb(79, 114, 160);
+}
+.buttons{
+  display: flex;
+  
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  
+}
