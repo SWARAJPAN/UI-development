@@ -6,8 +6,9 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Drawer } from '@mui/material';
+import { Drawer, Tabs } from '@mui/material';
 import Navigation from './Navigation';
+import TabsPanel from './TabsPanel';
 
 export default function MainContent() {
     
@@ -32,9 +33,7 @@ export default function MainContent() {
          
         </Toolbar>
       </AppBar>
-      <Typography variant="h1" component="div" sx={{ flexGrow: 1 }}>
-        Hello World
-      </Typography>
+      <TabsPanel />
     </Box>
   );
 }

@@ -20,7 +20,7 @@ export const theme = createTheme({
             fontWeightRegular: 400,
             fontWeightMedium: 500,
             fontWeightBold: 700,
-
+           
         },
         components: {
             MuiButton: {
